@@ -1,0 +1,164 @@
+aside{
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+    background: white;
+    height: 350px;
+    position: relative;
+
+}
+.flash-sale{ position: absolute; top:10px; left: 10px;}
+.flash-sale>img{  border-radius: 5px;}
+.hop{
+    height: 250px;
+    left: 10px;
+    top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px blue;
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: white;
+    margin-left: 12px;
+}
+.hop:hover{ box-shadow: 0 0 5px red;}
+.hop>.name{ color: black; font-size: 20px;}
+.hop>.image{ max-width: 90%; height: 150px; margin-bottom: 10px;}
+.hop>.price1{ position: absolute; left: 40px; bottom: 20px; color: red; font-family: Impact; font-size: 15px;}
+.hop>.giamgia{
+    position: absolute;
+    left: 20px;
+    bottom: 2px;
+    color: orangered;
+    font-family: Impact;
+    font-size: 15px;
+}
+.hop>.sale{ position: absolute;}
+.hop>.sale>img{ height: 20px; width: 70px;}
+.xemtatca{ position: absolute; top: 20px;right: 30px; font-size: 20px;}
+.xemtatca>a{ color: blue; text-decoration: none;}
+.xemtatca>a:hover{color: red;}
+/* .thuonghieu{
+    margin-top: 20px;
+} */
+.thuonghieu{ position: relative;}
+.thuonghieu>.thuonghieu1{ position: absolute; top: 15px; left: 10px;}
+.thuonghieu>.thuonghieu1>img{ height: 50%; width: 100%;}
+.thuonghieu>h2{ font-size: 25px; position: absolute; left: 70px;}
+.anhgiua-aside{
+    position: absolute;
+    top: 80px;
+    left: 95px;
+    height: 200px;
+    width: 85%;
+    border-radius: 10px ;
+}
+.sanpham2{ position: relative; height: 550px;}
+.hop1{
+    height: 200px;
+    left: 10px;
+    top: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: white;
+    margin-left: 15px;
+}
+.hop1:hover{box-shadow: 0 0 5px red;}
+.hop1>.name{ color: black;font-size: 20px;}
+.hop1>.image{ max-width: 90%; height: 150px; margin-bottom: 10px;}
+.hop1>.price{
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    color: red;
+    font-family: Impact;
+    font-size: 15px;
+}
+.tienich{ position: relative; height: 250px;}
+.hmenu{ position: absolute; top: 70px; text-align: center;}
+.box{
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 0 5px red;
+    /* margin-left: 10px; */
+    margin-left: 45px;
+    height: 150px;
+    background: white;
+    transition: background 1.5s;
+}
+.box:hover{ box-shadow:  0 0 5px blue; background: rgb(158, 254, 222);}
+.cmenu{ display: inline-block; padding: 20px; text-align: center;left: 100px;}
+
+.cmenu a img{ height: 50px; width: 50px;}
+.cmenu p{ text-align: center;}
+.hop2{ height: 200px; left: 10px; top: 10px; border-radius: 10px;
+    box-shadow: 0 0 5px gray; padding: 5px 10px; text-align: center; position: relative;float: left;
+    background-color: white; margin-left: 15px;
+}
+.hop2>a>.image{ max-width: 90%;height: 150px; margin-bottom: 10px;}
+.price{position: absolute; left: 150px; width: 200px;
+    bottom: 100px; color: red; font-family: Impact; font-size: 20px;}
+.ten{ position: absolute; left: 150px; width: 400px; top: 10px; font-size: 25px;}
+.giamgia{
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    bottom: 80px;
+    color: orangered;
+    font-family: Impact;
+    font-size: 15px;
+}
+.hop2>.sale{ position: absolute;}
+.hop2>.sale>img{ height: 20px; width: 70px;}
+.checkbox1{
+    position: absolute; height: 30px; width: 30px; top: 80px; left: 725px;}
+.gia1{
+    position: absolute; font-size: 20px; top: 100px; left: 690px;
+}
+.gia2{
+    position: absolute; font-size: 20px; color: red; top: 100px; left: 1110px; font-weight: bold;
+}
+.checkbox2{
+    position: absolute;height: 30px; width: 30px; top: 80px; left: 875px;
+}
+.mua1{
+    position: absolute; font-size: 20px; top: 100px; left: 875px;
+}
+.soluong{
+    position: absolute; font-size: 20px; top: 85px; left: 1020px; width: 50px; text-align: center;
+}
+.checkbox3{
+    position: absolute; height: 30px; width: 30px; top: 250px; left: 30px;
+}
+.magiamgia{
+    position: absolute;font-size: 20px; top: 240px; left: 90px;
+}
+.checkma{
+    position: absolute; height: 30px; width: 300px; top: 250px; left: 300px; font-size: 20px; color: red;
+}
+.xemsanpham{
+    margin: 10px auto; width: 70%; border-radius: 10px; background: white; height: 350px; position: relative
+}
+.crop-sanpham{
+    position: relative; top: 20px; left: 10px; margin: 0 auto; padding: 5px;  box-shadow: 0 0 5px blue; float: left;
+    text-align: center; border-radius: 10px; width: 15%; height: 300px; margin-left: 30px;
+}
+.crop-sanpham img{ height: 90%; width: 90%;}
+.crop-sanpham .name{
+    position: absolute; color: black; top: 180px; font-size: 20px; left: 15px;
+}
+.crop-sanpham .price1{
+    position: absolute; color: red; font-variant: small-caps;font-size: 20px; top: 230px;
+}
+.crop-sanpham p{
+    position: absolute; color: red; top: 250px;
+}
+.crop-sanpham:hover{
+    box-shadow: 0 0 5px red;
+}

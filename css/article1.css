@@ -1,0 +1,32 @@
+.oppo{ width: 800px; position: relative; height: 50px; margin-top: 25px; left: 100px; background-color: lightgray; }
+.oppo>a{ text-decoration: none; color: black; font-size: 20px; padding-left: 10px ;}
+.dtoppo{ position: relative; height: 550px;}
+.dienthoai>img{ position: absolute; height: 400px; width: 400px; left: 150px; top: 20px;}
+.oppo1{ position: absolute; height: 100px; width: 100px; left: 150px; top: 440px; }
+.oppo1:hover{ box-shadow: 0 0 5px red;}
+.oppo2{ position: absolute; height: 100px; width: 100px; left: 300px; top: 440px; }
+.oppo2:hover{ box-shadow: 0 0 5px red;}
+.oppo3{ position: absolute; height: 100px; width: 100px; left: 450px; top: 440px;}
+.oppo3:hover{ box-shadow: 0 0 5px red; }
+.thongtin>h2{ position: absolute; left: 700px; top: 50px; }
+.thongtin>h3{ position: absolute; left: 700px; top: 100px; }
+.thongtin>p{ position: absolute; font-size: 20p ;left: 700px; top: 120px; }
+.thongtin a{ text-decoration: none; color: blue;}
+.thongtin>.giadt{  position: absolute;font-size: 25px; left: 700px;top:200px; color: red;font-weight: bold;}
+.soluong1>p{position: absolute;font-size: 20px;left: 700px;top: 250px;color: grey;}
+.soluong1 form input{ position: absolute;top: 260px;left: 900px;}
+.soluong1 form .themvaogio{position: absolute; height: 50px;width: 300px;font-size: 20px; border: none; left: 700px; top: 350px; background: lightgray; font-weight: bold; border-radius: 10px; color: rgb(58, 57, 57);}
+.soluong1 form .muahang{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    left: 1000px;
+    top: 350px;
+    background: rgb(253, 59, 59);
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 10px;
+}

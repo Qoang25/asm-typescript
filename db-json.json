@@ -1,0 +1,53 @@
+{
+    
+    "san_pham": [
+        {"id": 1, "name":"Điện thoại Oppo", "description": "Điện thoại oppo rất đẹp", "img":"oppo.jpg", "price":"9.990.000 VNĐ", "deal":"11.900.000 VND", "value":9900000, "img_chirld":["oppo1.png","oppo2.png","oppo3.png"]},
+        {"id": 2, "name":"Chỗi lau sàn", "description": "Chỗi lau sàn đa năng","img":"choilausan.jpg", "price":"199.000 VNĐ", "deal":"279.000 VND", "value":199000, "img_chirld":["choilausan1.jpg","choilausan2.jpg","choilausan3.jpg"]},
+        {"id": 3, "name":"Sâm Nhung Bổ Thận", "description": "Sâm nhung bổ thận rất tốt cho sức khỏe","img":"bothantrangduong.png", "price":"149.000 VNĐ", "deal":"199.000 VND", "value":149000 , "img_chirld":["samnhungbothan1.png","samnhungbothan2.png","samnhungbothan3.png"]},
+        {"id": 4, "name":"Dép heo Cute", "description": "Dép siêu dễ thương","img":"dephong.jpg", "price":"49.000 VNĐ", "deal":"80.000 VND", "value":49000, "img_chirld":["dephong3.jpg","dephong1.jpg","dephong2.jpg"]},
+        {"id": 5, "name":"Xe máy Honda", "description": "Xe máy Honda màu đỏ/đen/trắng","img":"xemay.png", "price":"23.700.000 VNĐ", "deal":"11.900.000 VND", "value":23700000, "img_chirld":["xemay1.png","xemay2.png","xemay3.png"]},
+        {"id": 6, "name":"Khẩu Trang", "description": "Khẩu trang 4 lớp chống bụi","img":"KhauTrang.jpg", "price":"99.000 VNĐ", "deal":"119.000 VND", "value":99000, "img_chirld":["khautrang3.jpg","khautrang2.jpg","khautrang1.jpg"]},
+        {"id": 7, "name":"Combo 5 gói bột ngọt", "description": "Bột ngọt Vedan","img":"botngot.png", "price":"99.000 VNĐ", "deal":"119.000 VND", "value":99000, "img_chirld":["botngot1.jpg","botngo2.jpg","botngot3.jpg"]}
+
+    ],
+    "thuong_hieu":[
+        {"id": 1, "description":"Chỉ từ 9k", "img":"but.png"},
+        {"id": 2, "description":"Chỉ từ 149k", "img":"jody.png"},
+        {"id": 3, "description":"Chỉ từ 25k", "img":"banhmi.png"},
+        {"id": 4, "description":"Giảm đến 50%", "img":"bepga.png"},
+        {"id": 5, "description":"Voucher 100k", "img":"sacngockhang.png"},
+        {"id": 6, "description":"Tẩy trang từ 21k", "img":"taytrang.png"},
+        {"id": 7, "description":"Giảm đến 40%", "img":"hopdungraucu.png"}
+    ],
+    "tien_ich":[
+        {"id": 1, "name":"Hóa đơn<br>điện", "img":"dien.png"},
+        {"id": 2, "name":"Mua<br>thẻ cào", "img":"thecao.png"},
+        {"id": 3, "name":"Mua<br>Thẻ Game", "img":"thegame.png"},
+        {"id": 4, "name":"Mua<br>Vietlott", "img":"vietllot.png"},
+        {"id": 5, "name":"Vé<br>máy bay", "img":"maybay.png"},
+        {"id": 6, "name":"Ưu đãi<br>đối tác", "img":"doitac.png"},
+        {"id": 7, "name":"Nạp tiền<br>điện thoại", "img":"naptiendienthoai.png"},
+        {"id": 8, "name":"Hóa đơn<br>nước", "img":"nuoc.png"},
+        {"id": 9, "name":"Hóa đơn<br>internet", "img":"wifi.png"}
+
+    ],
+    "san_pham_footer":[
+        {"id": 1, "name":"Túi lọc trà - bộ 100 túi", "img":"tuiloctra.jpg", "price":"20.000 VNĐ", "sell":"Đã bán 44/50"},
+        {"id": 2, "name":"Bộ 5 hộp khăn giấy", "img":"khangiay.jpg", "price":"66.000 VNĐ", "sell":"Đã bán 80/100"},
+        {"id": 3, "name":"Đai gù lưng", "img":"daigulung.jpg", "price":"199.000 VNĐ", "sell":"Đã bán 68/100"},
+        {"id": 4, "name":"Khay ươm hạt 50 lỗ", "img":"khay.png", "price":"69.000 VNĐ", "sell":"Đã bán 25/100"},
+        {"id": 5, "name":"Kéo cắt gà đa năng", "img":"keocatdanang.jpg", "price":"65.000 VNĐ", "sell":"Đã bán 53/100"}
+
+    ],
+    "v_menu":[
+        {"id": 1, "description":"Rau Sach<br>Sendo", "img":"sendofam.png"},
+        {"id": 2, "description":"Kredivo <br>giảm 100k", "img":"logok.png"},
+        {"id": 3, "description":"Xu hướng <br>công nghệ", "img":"qua.png"},
+        {"id": 4, "description":"Săn sale<br>shop+", "img":"+.png"},
+        {"id": 5, "description":"Giá tốt<br>trong ngày", "img":"lua.png"},
+        {"id": 6, "description":"Nhà cửa <br>-50%", "img":"ghe.png"},
+        {"id": 7, "description":"FPT <br>Zone", "img":"fpt.png"},
+        {"id": 8, "description":"Nạp thẻ &<br>dịch vụ", "img":"den.png"},
+        {"id": 9, "description":"Voucher &<br>Mã Freeship", "img":"hot.png"}
+    ]
+}

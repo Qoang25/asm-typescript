@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Điện thoại Oppo</title> 
+        <link rel="icon" href="image/logosendo.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/headercss.css">
+        <link rel="stylesheet" href="css/navcss.css">
+        <link rel="stylesheet" href="css/maincss.css">
+        <link rel="stylesheet" href="css/asidecss.css">
+        <link rel="stylesheet" href="css/articlecss.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/article1.css">
+    </head>
+    <body >
+        <div class="container">
+            <header>
+                <div class="tieude">
+                    <a href="#">Tải ứng dụng</a>
+                    <a href="#">Chăm sóc khách hàng</a>
+                    <a href="#">Kiểm tra đơn hàng</a>
+                </div>
+            </header>
+            <nav>
+                <div class="Timkiem">
+                    <a href="TrangChu.html"><img class="logosendo" src="image/logo-sendo.png"></a>
+                    <a href="#"><img class="logomenu" src="image/menu.png"></a>
+                    <input type="text" name="Timkiem" style="width: 670px; height: 30px;" placeholder="Tìm Kiếm Trên Sendo">
+                    <a href="#1"><img class="logotimkiem" style="cursor: pointer;" src="image/timKiem.png"></a>
+                    <a href="giohang.html"><img class="giohang" style="cursor: pointer;" src="image/buy-icon-png-21.png"></a>
+                    <a href="Dangnhap.html"><button class="nutbam">Đăng Nhập</button></a>
+                </div>  
+            </nav>
+            <article class="oppo">
+                <a href="#">Sendo.vn  /  </a>
+                <a href="#" id="hang"></a>
+            </article>
+            <!-- Hiển thị chi tiết sản phẩm -->
+            <article class="dtoppo">
+                
+            </article>
+            <footer>
+                <div class="cuoi">
+                    <div class="cuoi1">
+                        <div class="cuoi2">
+                            <a href="#1203">
+                                <img class="t10" src="image/cuoi.png">
+                            </a>
+                            <div class="ndgancuoi">
+                                <a href="#000">
+                                    <p>Siêu nhiều hàng tốt</p>
+                                </a>
+                            </div>
+                            <div class="ndcuoi">
+                                <a href="#11122">
+                                    <p>Cần gì cũng có 26 ngành hàng & 
+                                        10 triệu sản phầm</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cuoi1">
+                        <div class="cuoi2">
+                            <a href="#1203">
+                                <img class="t10" src="image/cuoi2.png">
+                            </a>
+                            <div class="ndgancuoi">
+                                <a href="#000">
+                                    <p>Siêu nhiều hàng tốt</p>
+                                </a>
+                            </div>
+                            <div class="ndcuoi">
+                                <a href="#11122">
+                                    <p>Cần gì cũng có 26 ngành hàng & 
+                                        10 triệu sản phầm</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cuoi1">
+                        <div class="cuoi2">
+                            <a href="#1203">
+                                <img class="t10" src="image/cuoi3.png">
+                            </a>
+                            <div class="ndgancuoi">
+                                <a href="#000">
+                                    <p>Siêu nhiều hàng tốt</p>
+                                </a>
+                            </div>
+                            <div class="ndcuoi">
+                                <a href="#11122">
+                                    <p>Cần gì cũng có 26 ngành hàng & 
+                                        10 triệu sản phầm</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cuoi1">
+                        <div class="cuoi2">
+                            <a href="#1203">
+                                <img class="t10" src="image/cuoi4.png">
+                            </a>
+                            <div class="ndgancuoi">
+                                <a href="#000">
+                                    <p>Siêu nhiều hàng tốt</p>
+                                </a>
+                            </div>
+                            <div class="ndcuoi">
+                                <a href="#11122">
+                                    <p>Cần gì cũng có 26 ngành hàng & 
+                                        10 triệu sản phầm</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </body>
+    <footer style="text-align: center; background-color: rgb(170, 170, 170);" >
+        <p class="f_sv" style="font-weight: 300; font-size: 16px;">Thực hiện bởi sinh viên: Tống Đinh Tiên Hoàng - PS30071</p>
+    </footer>
+</html>
+<script src="./js/connectJson.js"></script>
+<script type="module">
+    import {lay_1sp} from './js/connectJson.js';
+    let params = new URLSearchParams(location.search);
+    let id = Number(params.get("id"))
+    document.querySelector(".dtoppo").innerHTML = lay_1sp(id);
+</script>

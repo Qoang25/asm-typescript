@@ -1,0 +1,5 @@
+article{ background: white;}
+.menu{ text-align: center;}
+.vmenu{ display: inline-block; padding: 20px; height: 50px; width: 80px; text-align: center; font-size: 15px;    }
+.vmenu>a>img{ height: 40px; width: 40px;}
+.anhgiua{ width: 80%; padding: 10px 160px; margin: 0 auto;}

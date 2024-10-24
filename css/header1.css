@@ -1,0 +1,61 @@
+.header1{
+    height: 100px; position: relative; margin: 0 auto; width: 1400px;
+}
+.header1>a>img{
+    position: absolute; height: 70px; width: 70px; top: 20px;
+}
+.header1>h2{
+    position: absolute; font-size: 35px; left: 100px; top: 7px;
+}
+.header1>.hotro{
+    position: absolute; top: 30px; right: 40px; font-size: 20px; text-decoration: none; color: blue ;
+}
+.nav1{
+    height: 600px; background: rgb(255, 27, 27); position: relative;
+}
+.nav1>a>img{
+    position: absolute; top:50px; left: 150px;
+}
+.khung{
+    position: relative; height: 500px; width: 500px; float: right; top: 40px; right: 30px; background-color: white; margin: 10px 0; border-radius: 5px;
+}
+.khung>p{
+    position: absolute; font-size: 30px; left: 10px; top:-10px;
+}
+.thongtin{
+    display: inline-block; position: relative; top: 50px; margin-top: 20px; left: 20px; font-size: 20px;
+}
+.username{
+    font-size: 20px; height: 30px; width: 400px; outline: none; padding: 8px 10px; border-radius: 3px; display: block;
+}
+.password1{
+    font-size: 20px; height: 30px; width: 400px; outline: none; padding: 8px 10px; border-radius: 3px; display: block;
+}
+.password{
+    position: absolute; top: 160px; left: 20px; padding: 8 10px;
+}
+.thongtin>button{
+    width: 427px; height: 30px; font-size: 20px; border: none; background-color: rgb(218, 35, 35); color: white; border-radius: 5px; position: absolute;
+}
+.thongtin>a{
+    color: blue; position: absolute; font-size: 20px; right: -280px; bottom: -3px; text-decoration: none;
+}
+.thongtin1{
+    display: inline-block; position: relative; top: 145px; left: 20px; font-size: 20px;
+}
+.thongtin1>button{
+    position: absolute; width: 427px; height: 30px; font-size: 20px; border: none; background-color: rgb(218, 35, 35); color: white;
+    border-radius: 5px; right: 0px; top: 120px;
+}
+.logo1>img{
+    position: absolute; height: 50px; width: 50px; left: 40px; bottom: 100px;
+}
+.logo2>img{
+    position: absolute; height: 50px; width: 50px; left: 100px; bottom: 100px;
+}
+.khung>form>p{
+    position: absolute; font-size: 20px; bottom: 20px; left: 130px; color: gray;
+}
+.khung>form>p>a{
+    color: red;
+}

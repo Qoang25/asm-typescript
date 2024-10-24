@@ -1,0 +1,5 @@
+header{
+    text-align: left;  background-color: rgb(182, 28, 28); position: relative; height: 30px;
+}
+.tieude{ top: 5px; left: 80px; position: absolute;}
+.tieude>a{ color: white; text-decoration: none; padding: 20px; font-size: 14px;}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="data">
+        
+    </div>
+</body>
+</html>
+<script>
+    fetch("http://localhost:3000/v_menu")
+.then(  response => {
+   if (response.ok==false) throw Error( response.statusText);
+   return response.json()
+})
+.then ( data => {
+    data.forEach( sp => {
+        document.querySelector(".data").innerHTML+=`<p>${sp.id}<b> <img src="image/${sp.img}"></a></b> </p>`;
+    })
+    console.log("data=", data);
+})
+
+</script>

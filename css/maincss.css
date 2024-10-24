@@ -1,0 +1,43 @@
+main{
+    height: 30px; width: 100%; background-color: rgb(202, 18, 18); position: relative;
+}
+.uutien{
+    width: 100%; border-bottom: 2px; text-align: center;
+}
+.uutien>ul{
+    padding: 0px; margin: 0px; list-style-type: none;background-color: rgb(202, 18, 18); border-radius: 3px;
+}
+.uutien>ul>li{
+    display: inline-block; width: 200px; line-height: 40px;
+}
+.uutien>ul>li>a{
+    top: 5px; display: block; text-decoration: none; color: white; font-size: 20px;
+}
+.uutien>ul>li>a:hover{
+    background-color: firebrick;
+}
+.uutien li{
+    position: relative;
+}
+.uutien ul ul{
+    position: absolute; display: none; padding: 0px; margin: 0px; list-style-type: none; border-radius: 3px;
+    box-shadow: 0 0 2px blue; width: 200px; background: lightskyblue;
+}
+.uutien ul ul a{
+    font-size: 20px;display: block;  line-height: 50px; color: black; padding: 0px; text-decoration: none; background: white;
+}
+.uutien ul ul a:hover{
+    color: red; background-color: white; border: 1px dotted black;
+}
+.submenu{
+    position: absolute; list-style-type: none; display: none; z-index: 1; text-align: left;
+}
+.submenu>li{
+    padding: 0px;
+}
+.submenu>li:hover{
+    background-color: orangered; color: white;
+}
+.uutien li:hover .submenu{
+    display: block;
+}
